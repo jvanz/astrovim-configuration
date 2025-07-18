@@ -10,14 +10,15 @@ return {
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.pack.rust" },
-  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.completion.copilot-lua" }, -- default keybinds: accept <Alt-l>, next <Alt-]>, dismiss <Ctrl-l>
+  { import = "astrocommunity.editing-support.copilotchat-nvim" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.helm" },
-  { import = "astrocommunity.pack.proto" },
-  { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.json" },
-  { import = "astrocommunity.completion.copilot-lua" }, -- default keybinds: accept <Alt-l>, next <Alt-]>, dismiss <Ctrl-l>
-  { import = "astrocommunity.editing-support.copilotchat-nvim" },
+  { import = "astrocommunity.pack.proto" },
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
+  { import = "astrocommunity.pack.yaml" },
 }
