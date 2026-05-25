@@ -10,8 +10,7 @@ return {
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.completion.copilot-lua" }, -- default keybinds: accept <Alt-l>, next <Alt-]>, dismiss <Ctrl-l>
-  { import = "astrocommunity.editing-support.copilotchat-nvim" },
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.helm" },
